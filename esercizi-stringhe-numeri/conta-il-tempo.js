@@ -12,3 +12,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var seconditot = 12560;
+var sec1h = 60*60;
+
+var ore = Math.floor(seconditot/sec1h);
+
+var minuti = Math.floor((seconditot-(sec1h*ore))/60);
+
+var secondi = Math.floor((seconditot-(sec1h*ore))-(minuti*60));
+
+console.log(`abbiamo ${ore} poi ${minuti} poi ${secondi}`);
