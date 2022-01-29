@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var year = 2022;
+var born = 1985;
+var century = 100;
+var age = year - born;
+var missing = century - age;
+
+console.log(`mia moglie ha ${age} anni e mancano ${missing} anni per arrivare a 100)` );
