@@ -16,9 +16,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var num = 80;
-var pari = 80/2;
-if(pari){
+var num = 89;
+var pari = 89*1;
+if(num%2 == 0 ){
   console.log(0);
 }else{
   console.log(1);
