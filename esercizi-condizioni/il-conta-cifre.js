@@ -11,3 +11,5 @@
 
   http://www.imparareaprogrammare.it
 */
+var num =  345;
+console.log(num.toString().length);
