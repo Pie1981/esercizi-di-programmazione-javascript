@@ -19,3 +19,22 @@
 
   http://www.imparareaprogrammare.it
 */
+var player1 = 5;
+var player2 = 10;
+var x = Math.floor((Math.random()*(100-1) +1));
+console.log(x);
+
+if(player1 === x && player2 === x){
+  console.log('entrambi hanno indovinato' + x);
+
+}else if (player1 === x ) {
+  console.log('player1 ha indovinato ' + x);
+
+}else if (player2 === x ) {
+  console.log('player2 ha indovinato ' + x );
+
+}else if (Math.abs(player1 - x) < Math.abs(player2 - x)) {
+       console.log('nessuno dei due ha azzeccato ma il giocatore 1 si è avvicinato di più al numero casuale ' + x)
+     } else {
+       console.log('nessuno dei due ha azzeccato ma il giocatore 2 si è avvicinato di più al numero casuale ' + x)
+}
