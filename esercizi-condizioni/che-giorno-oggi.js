@@ -22,3 +22,28 @@
 
   http://www.imparareaprogrammare.it
 */
+var days = `1  , 2  , 3  ,4  ,5  , 6  `;
+var scelta = 6;
+switch (scelta) {
+  case 1:
+    console.log('Lunedì');
+    break;
+    case 2:
+    console.log('Martedì');
+    break;
+    case 3:
+    console.log('Mercoledì');
+    break;
+    case 4:
+    console.log('Giovedì');
+    break;
+    case 5:
+    console.log('Venerdì');
+    break;
+    case 6:
+    console.log('Sabato');
+break;
+      default:
+      console.log('Giorno della settimana non valido');
+
+}
