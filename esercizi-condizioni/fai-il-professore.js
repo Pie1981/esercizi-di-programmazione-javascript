@@ -18,17 +18,28 @@
 
   http://www.imparareaprogrammare.it
 */
-var v = 27;
-if (v<18){
-  console.log('insufficiente');
-}else if (18 <=v &&  v< 21) {
-  console.log('Sufficiente');
-}else if (21 <= v && v< 24) {
-  console.log('Buono');
-}else if (24 <= v && v< 27) {
-  console.log('Distinto');
-}else if (27 <= v && v<= 29) {
-  console.log('Ottimo');
-}else {
-  console.log(Eccellente);
+
+var teach = `18,21,24,27,29,30`;
+var voto = 19;
+switch (voto) {
+  case 1:
+    console.log('insufficiente');
+    break;
+    case 2:
+    console.log('sufficiente');
+    break;
+    case 3:
+    console.log('buono');
+        break;
+        case 4:
+        console.log('distinto');
+        break;
+        case 5:
+        console.log('ottimo');
+              break;
+              case 6:
+              console.log('eccellente');
+              break;
+  default: console.log('Esame non superato');
+
 }
