@@ -28,3 +28,28 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = 15;
+var b = 5;
+var operazione = 'prodotto';
+
+switch (operazione) {
+  case 'somma':
+  console.log(a+b);
+    break;
+    case 'prodotto':
+    console.log(a*b);
+    break;
+    case 'divisione':
+    console.log(a/b);
+    break;
+    case 'modulo':
+    console.log(a%b);
+    break;
+    case 'media':
+    console.log((a+b)/2);
+    break;
+
+  default:
+  console.log('operazione non valida');
+
+}
