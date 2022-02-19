@@ -20,13 +20,11 @@
   http://www.imparareaprogrammare.it
 */
 
-var sequenza = ''
-for (var i = 1; i<=100;i++){
-
-sequenza+=  ' ' +  i;
-if (i===10 || i===20 || i===30 || i===40 || i===50 || i===60 || i===70 || i===80 ||i===90) {
-  sequenza+= '\n'
+var sequenza = '';
+for (var i=1; i<=100; i++){
+  sequenza+= ' ' + i;
+  if (i%10==0) {
+    sequenza+= '\n';
+  }
 }
-
-}
-console.log(sequenza );
+console.log(sequenza);
