@@ -14,3 +14,21 @@
 
   http://www.imparareaprogrammare.it
 */
+
+ var tiri = 7;
+var player1 = 0;
+var player2 = 0;
+var x = Math.floor((Math.random()*(6-1) +1));
+var y = Math.floor((Math.random()*(6-1)+1));
+for (i=0; i<tiri; i++){
+  player1+=x;
+  player2+=y;
+}
+if (player1===player2){
+  console.log(`I due giocatori dopo ${tiri} tiri hanno pareggiato con il punteggio di ${player1}`);
+}else if (player1<player2) {
+  console.log(`il giocatore 1 ha vinto effettuando ${tiri} tiri con il punteggio di ${player1} `);
+}else {
+  console.log(`il giocatore 2 ha vinto effettuando ${tiri} tiri con il punteggio di ${player2}`);
+
+}
