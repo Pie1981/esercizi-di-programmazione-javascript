@@ -45,3 +45,46 @@
 
   http://www.imparareaprogrammare.it
 */
+var days = 31;
+var dayWeek = 0;
+
+for (i = 1; i<=days; i++){
+dayWeek++;
+
+
+if(dayWeek=>0){
+  console.log('Lun'+ ' ' + i);
+
+  i++;
+} if (dayWeek=1) {
+  console.log('Mar'+ ' ' + i);
+
+  i++;
+} if (dayWeek=2) {
+  console.log('Mer'+ ' ' + i);
+
+  i++;
+} if (dayWeek=3) {
+  console.log('Gio'+ ' ' + i);
+
+  i++;
+} if (dayWeek=4) {
+  console.log('Ven'+ ' ' + i);
+
+  i++;
+} if (dayWeek=5) {
+  console.log('Sab' + ' ' + i);
+
+  i++;
+} if (dayWeek=6) {
+  console.log('Dom'+ ' ' + i);
+
+  i++;
+}
+if (dayWeek==7){
+  dayWeek=0;
+}
+
+
+
+}
